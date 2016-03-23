@@ -1,0 +1,14 @@
+{
+	"id": "{50EFB994-8A92-4DE4-B347-8ECCCE9C6B7B}",
+	"name": "VLCRemote",
+	"type": 3,
+	"vendor": "VideoLAN",
+	"aliases": 
+	[
+            "VLC Remote"
+	],
+	"parentRequirements": [],
+	"childRequirements": [],
+	"implemented": [],
+	"prefix": "VLCRemote"
+}
