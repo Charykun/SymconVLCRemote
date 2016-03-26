@@ -1,0 +1,20 @@
+{
+     "elements":
+    [
+        { "name": "Active", "type": "CheckBox", "caption": "Autostart" },        
+        { "name": "Path", "type": "ValidationTextBox", "caption": "Path" },
+        { "type": "Label", "label": " " }, 
+        { "name": "IPAddress", "type": "ValidationTextBox", "caption": "IP-Address" },
+        { "name": "Port", "type": "NumberSpinner", "caption": "Port" },
+        { "name": "Password", "type": "PasswordTextBox", "caption": "Password" },
+        { "name": "Poller", "type": "IntervalBox", "caption": "milliseconds" } 
+    ],
+    "status":
+    [
+        { "code": 102, "icon": "active", "caption": "Interface is open" },
+	{ "code": 104, "icon": "inactive", "caption": "Interface is closed" },
+	{ "code": 200, "icon": "error", "caption": "Interface is an error state. Please check message log for more information." },
+        { "code": 201, "icon": "error", "caption": "Invalid IP-Address" },
+        { "code": 202, "icon": "error", "caption": "VLC is not reachable!" }
+    ]   
+}
